@@ -172,6 +172,6 @@ export const contacts = [
   {
     id: 3,
     icon: <FaPhoneAlt />,
-    infoText: "WhatsApp: +606981410801",
+    infoText: "WhatsApp: +306981410801",
   },
 ];
