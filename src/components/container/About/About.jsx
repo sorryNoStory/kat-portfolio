@@ -4,7 +4,7 @@ import Kateryna_Medushyvska_CV from "../../../assets/cv/Kateryna_Medushyvska_CV.
 
 import { motion } from "framer-motion";
 import { bios } from "../../../Data";
-import portfolio from "../../../assets/portfolio.jpg";
+import girlImage from "../../../assets/girl-image.jpg";
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
           className="about_left"
         >
           <motion.img
-            src={portfolio}
+            src={girlImage}
             whileHover={{ y: -48, x: -55 }}
             transition={{ duration: 0.3 }}
           />
@@ -38,17 +38,11 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <p>
-            With 7 years in product and 2 in development, I bring a unique
-            perspective and deep knowledge of creating successful products. My
-            mix of soft and hard skills allows me to collaborate with all teams
-            and deliver exceptional outcomes.
+          Creative, innovative, and passionate web developer with excellent problem-solving skills, boasting 2 years of experience in a software development agency and 3 years of freelance design and development, where I've completed over 30 projects.
+          Been working remotely for 5 years, so know how to organize and streamline processes effectively.
             <br />
             <br />
-            My skill set is focused on Frontend Javascript development with
-            expertise in React, Redux, Next 13, Tailwind, CSS, and SCSS.
-            However, I'm also expanding my knowledge and skills in backend
-            technologies such as Node.js, Express, Strapi, and MongoDB to create
-            robust web applications.
+            Work with JavaScript, React, Node, Vue.js, Next.js, MongoDB, and the MERN Stack in general. Always eager to learn new technologies, and currently excited to gain experience in TypeScript and Flutter.
           </p>
           {bios.map((bio) => {
             return (
